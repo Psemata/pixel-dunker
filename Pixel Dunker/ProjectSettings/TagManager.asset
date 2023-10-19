@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ball
+  - BasketBlue
+  - TP_3_2
+  - TP_2_1
+  - TP_1_1
+  - TP_1_2
+  - TP_3_1
+  - TP_2_2
+  - Ground
+  - TP
+  - Hole
+  - Side
+  - BasketPurple
+  - MovingPlatform
+  - LobbyStart
+  - SpeedUp
+  - Armor
+  - Reverse
+  - Frozen
+  - Explosion
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Platform
+  - Ground
+  - TP
+  - Props
+  - Bakset
+  - Player
+  - Bonus
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

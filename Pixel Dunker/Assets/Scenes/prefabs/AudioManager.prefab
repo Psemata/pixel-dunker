@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6470300467195337807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6470300467195337793}
+  - component: {fileID: 6470300467195337792}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6470300467195337793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470300467195337807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.838133, y: -0.69329154, z: -1403.8887}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6470300467195337792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6470300467195337807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3184b48abb266c34fb334c3850796898, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: armor
+    clip: {fileID: 8300000, guid: 76e1e5288d569ab45a433cb76dee8da4, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: ball
+    clip: {fileID: 8300000, guid: ee10cbe88fdec9e4dbb2f19938a01e71, type: 3}
+    volume: 0.1
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: freeze
+    clip: {fileID: 8300000, guid: 0b6af53a95f45064790c7e506255d27b, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 77754411134c655478731de36b9adce7, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: oof
+    clip: {fileID: 8300000, guid: 4f0f4db6e5da2814bbe4123de1cfdaf9, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: select
+    clip: {fileID: 8300000, guid: fade5234a2012eb4697b541b5912b93f, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: swap
+    clip: {fileID: 8300000, guid: b6f7564901b67874593773ee97da3b14, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: teleport
+    clip: {fileID: 8300000, guid: 222068835cf1e8840ba3593dde8916ed, type: 3}
+    volume: 0.05
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: whistle
+    clip: {fileID: 8300000, guid: f9d693440a181df4b97ec50ed0846636, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: win_cheer
+    clip: {fileID: 8300000, guid: f28e26687248e334faf5f0b806de0195, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: speed
+    clip: {fileID: 8300000, guid: 6b4a5af00647f0c4e803463de1274c1f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    mixer: {fileID: 24300002, guid: f472a4884b7cce447860fba2d4941dbb, type: 2}
+    source: {fileID: 0}
+  - name: theme
+    clip: {fileID: 8300000, guid: ac3c60e7e1ea7b44f89f2e26420519c2, type: 3}
+    volume: 0.01
+    pitch: 1
+    loop: 1
+    mixer: {fileID: 24300002, guid: dce0c8f04ea5aea4cb9ea4dd138376c9, type: 2}
+    source: {fileID: 0}
