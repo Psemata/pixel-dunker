@@ -22,6 +22,6 @@ Le wiki est disponible sur [gitlab](https://gitlab-etu.ing.he-arc.ch/isc/2021-22
 Authors
 -------
 
-* Bruno Costa, [@bruno.costa](https://gitlab-etu.ing.he-arc.ch/bruno.costa).
-* Diogo Lopes Da Silva, [@diogo.lopesdas](https://gitlab-etu.ing.he-arc.ch/diogo.lopesdas).
-* Valentino Izzo, [@valentin.izzo](https://gitlab-etu.ing.he-arc.ch/valentin.izzo).
+* Bruno Costa, [@Psemata](https://github.com/Psemata).
+* Diogo Lopes Da Silva, [@Ultrasic](https://github.com/Ultrasic).
+* Valentino Izzo, [@Tino3210](https://github.com/Tino3210).
